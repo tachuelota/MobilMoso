@@ -72,38 +72,31 @@ div.page .pageModo ul li{
 	list-style:none;
 }
 div.page .pageModo ul li a{
-<<<<<<< HEAD
-	color:white !important;
-	text-decoration:none;
-}
-
-=======
 	color:white;
 }
->>>>>>> 1.3
-div.page .pageModo ul li .image-list{
+div.page .pageModo ul li .imageList{
 	width:30%;
 	text-align:center;
 	float:left;
 }
-div.page .pageModo ul li .image-list img{
+div.page .pageModo ul li .imageList img{
 	width:90%;
 }
-div.page .pageModo ul li .text-list{
+div.page .pageModo ul li .textList{
 	width:70%;
 	float:left;
 }
-div.page .pageModo ul li .text-list h1{
+div.page .pageModo ul li .textList h1{
 	margin:0px;
 	padding:10px 10px 5px 10px;
 	color:#fffd86;
 	font-size:16px;
 }
-div.page .pageModo ul li .text-list p{
+div.page .pageModo ul li .textList p{
 	margin:0px;
 	padding:0px 10px 10px 10px;
 }
-div.page .pageModo ul li .text-list a{
+div.page .pageModo ul li .textList a{
 	color:white;
 }
 div.page .pageModo ul.ListaResultadoPeliculas{

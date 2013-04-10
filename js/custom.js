@@ -44,10 +44,10 @@ function getEmployeeList() {
 				if(itemResult.estaSuscrito == 0){
 					var fecha = new Date(itemResult.fechaSuscripcion);
 					
-					$("#page1 .contentPage ul").append("<li><a href=\"cine-info.html\"><div class=\"image-list\"><img src=\"img/user.jpg\" ></div><div class=\"text-list\"><h1>"+itemResult.nombre+"</h1><p>"+itemResult.descripcion+"</p><p>Activo desde: 10-04-2013</p></div><div class=\"clear\"></div></a></li>");
+					$("#page1 .contentPage ul").append("<li><a href=\"cine-info.html\"><div class=\"imageList\"><img src=\"img/user.jpg\" ></div><div class=\"textList\"><h1>"+itemResult.nombre+"</h1><p>"+itemResult.descripcion+"</p><p>Activo desde: 10-04-2013</p></div><div class=\"clear\"></div></a></li>");
 				}
 				else{
-					$("#page2 .contentPage ul").append("<li><a href=\"cine-info.html\"><div class=\"image-list\"><img src=\"img/user.jpg\" ></div><div class=\"text-list\"><h1>"+itemResult.nombre+"</h1><p>"+itemResult.descripcion+"</p></div><div class=\"clear\"></div></a></li>");
+					$("#page2 .contentPage ul").append("<li><a href=\"cine-info.html\"><div class=\"imageList\"><img src=\"img/user.jpg\" ></div><div class=\"textList\"><h1>"+itemResult.nombre+"</h1><p>"+itemResult.descripcion+"</p></div><div class=\"clear\"></div></a></li>");
 				}
           	});
           });
