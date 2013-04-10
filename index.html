@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PhoneGap Primer Ejemplo</title>
+	<script src="js/phonegap.js"></script>
+    <script src="js/jquery.js"></script>
+	<script src="js/custom.js"></script>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+
+<div class="page">
+    <div class="head">
+        <p>Productos <a href="http://bip.pe/bip/">Bip.pe</a></p>
+    </div>
+    <div class="menu">
+    <a id="page1" href="#">Mis Suscripciones</a>
+    <a id="page2" href="#">Otros Productos</a>
+    </div>
+    
+    <div id="page1" class="pageModo">
+    	<div class="contentPage">
+        	<ul>
+            	<li>
+                	<div class="image-list"><img src="img/user.jpg"></div>
+                    <div class="text-list">
+                    	<h1>CINE en tu celular.</h1>
+                        <p>Ent&eacute;rate de los ultimos estrenos</p>
+                    </div>
+                    <div class="clear"></div>
+                </li>                
+            </ul>
+        </div>
+    </div>
+    <div id="busy"/>Loading...</div>
+    <div id="page2" class="pageModo">
+    	<div class="contentPage">
+        	<ul>
+                <li>
+                	<div class="image-list"><img src="http://www.bip.pe/smart/moso/img/user.jpg" ></div>
+                    <div class="text-list">
+                    	<h1>RING TONES</h1>
+                        <p>Ent&eacute;rate de los ultimos estrenos</p>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+                
+                <li>
+                	<div class="image-list"><img src="http://bip.pe/smart/moso/img/user.jpg"></div>
+                    <div class="text-list">
+                    	<h1>CHISTE del d&iacute;a</h1>
+                        <p>Ent&eacute;rate de los ultimos estrenos</p>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
