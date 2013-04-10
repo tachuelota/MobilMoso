@@ -73,6 +73,7 @@ div.page .pageModo ul li{
 }
 div.page .pageModo ul li a{
 	color:white;
+	text-decoration:none !important;
 }
 div.page .pageModo ul li .imageList{
 	width:30%;
