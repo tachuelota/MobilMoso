@@ -6,6 +6,19 @@
 	<script src="js/phonegap.js"></script>
     <script src="js/jquery.js"></script>
 	<script src="js/custom.js"></script>
+	
+	 <script>
+	document.addEventListener("deviceready", function(){
+			navigator.notification.beep(2);
+
+			navigator.notification.vibrate(400);
+
+			//mensaje
+			navigator.notification.alert("Este es un mensaje", function(){
+			}, "Mi aplicacion", "Aceptar");
+		},false);
+</script>
+	
 <link rel="stylesheet" type="text/css" href="css.css">
 </head>
 
